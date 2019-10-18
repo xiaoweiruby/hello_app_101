@@ -1,24 +1,53 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+10340 mkdir rubyspace
+10341 cd rubyspace
+10342 rails new hello_app
+10343 ls
+10344 cd hello_app
+10346 bundle install
+10348 atom .
+10349 rails server
 
-Things you may want to cover:
+```
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+app/controllers/application_controller.rb
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+class ApplicationController < ActionController::Base
+ def hello
+ render html: “hello, world!”
+ end
+end
+```
 
-* Deployment instructions
 
-* ...
+
+config/routes.rb
+```
+
+Rails.application.routes.draw do
+ root ‘application#hello’
+end
+```
+
+
+
+
+
+
+
+```
+
+10352 git init
+10353 git status
+10354 git add .
+10355 git commit -m “initial commit”
+10356 git remote add origin https://github.com/xiaoweiruby/hello_app_101.git
+10357 git push -u origin master
+```
