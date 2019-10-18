@@ -51,3 +51,15 @@ end
 10356 git remote add origin https://github.com/xiaoweiruby/hello_app_101.git
 10357 git push -u origin master
 ```
+升级ruby
+https://www.jianshu.com/p/99b90985915b
+此版本的Ruby在Heroku-18上不可用
+https://stackoverflow.com/questions/56675227/this-version-of-ruby-is-not-available-on-heroku-18
+
+```
+heroku login
+heroku create hello_app_101
+heroku create
+git push heroku master
+
+```
