@@ -57,10 +57,9 @@ https://www.jianshu.com/p/99b90985915b
 https://stackoverflow.com/questions/56675227/this-version-of-ruby-is-not-available-on-heroku-18
 
 #四、完成云端部署
-
+https://intense-sands-75913.herokuapp.com/
 ```
 heroku login
-heroku create hello_app_101
 heroku create
 git push heroku master
 heroku open
