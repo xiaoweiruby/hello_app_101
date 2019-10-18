@@ -1,4 +1,4 @@
-
+#一、新建一个程式
 ```
 10340 mkdir rubyspace
 10341 cd rubyspace
@@ -12,7 +12,7 @@
 ```
 
 
-
+#二、增加一个功能
 
 
 app/controllers/application_controller.rb
@@ -41,7 +41,7 @@ end
 
 
 
-
+#三、上传一段代码
 ```
 
 10352 git init
@@ -56,10 +56,12 @@ https://www.jianshu.com/p/99b90985915b
 此版本的Ruby在Heroku-18上不可用
 https://stackoverflow.com/questions/56675227/this-version-of-ruby-is-not-available-on-heroku-18
 
+#四、完成云端部署
+
 ```
 heroku login
 heroku create hello_app_101
 heroku create
 git push heroku master
-
+heroku open
 ```
